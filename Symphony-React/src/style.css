@@ -1,0 +1,20 @@
+@font-face {
+        font-family: "roboto-regular";
+        src: url("./assets/fonts/roboto-regular.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "roboto-700";
+        src: url("./assets/fonts/roboto-700.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "roboto-italic";
+        src: url("./assets/fonts/roboto-italic.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "roboto-700italic";
+        src: url("./assets/fonts/roboto-700italic.ttf") format("truetype");
+      }
+@font-face {
+        font-family: "comic-sans-ms-regular";
+        src: url("./assets/fonts/comic-sans-ms-regular.ttf") format("truetype");
+      }
