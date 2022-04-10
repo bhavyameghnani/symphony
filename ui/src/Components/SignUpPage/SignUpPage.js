@@ -12,21 +12,11 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import ServiceCall from '../../Service/ServiceCall';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      <Link color="inherit" href="https://material-ui.com/">
-        Bolts
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    //height: '100vh',
+    height: '100vh',
   },
   image: {
     //backgroundImage: 'url(https://1471793142.rsc.cdn77.org/data/images/full/49011/office-friends.jpeg)',
@@ -117,7 +107,7 @@ export default function SignUpPage() {
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+      {/* <Grid item xs={false} sm={4} md={7} className={classes.image} /> */}
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
@@ -218,9 +208,7 @@ export default function SignUpPage() {
               </Link>
             </Grid>
           </Grid>
-          <Box mt={2}>
-            <Copyright />
-          </Box>
+          
         </div>
       </Grid>
     </Grid>

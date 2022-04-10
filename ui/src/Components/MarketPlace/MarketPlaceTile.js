@@ -92,7 +92,7 @@ export default function MarketPlaceTile() {
       <CssBaseline />
           <main>
               <Typography variant="h5" className={classes.divHeading}>
-                <b>One stop platform to search and buy personalised & recommended Bayer products</b>
+                <b>Save Mother Earth</b>
               </Typography>
               <br />
               <Grid container spacing={4}>

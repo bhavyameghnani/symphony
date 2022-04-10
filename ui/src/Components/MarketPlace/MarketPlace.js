@@ -30,7 +30,7 @@ export default function MarketPlace() {
 const mainFeaturedPost = {
   title: 'Market Place',
   description:
-    "One stop platform to search and buy personalised & recommended Bayer products",
+    "One stop platform to search and buy personalised & enviornmental friendly products",
   image: 'https://thumbs.gfycat.com/AntiqueEdibleBarnswallow-size_restricted.gif',
   imgText: 'Market Place',
   linkText: 'Continue reading…',

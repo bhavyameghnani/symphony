@@ -7,14 +7,13 @@ import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
+import cloud_logo from '../../Resources/Images/cloud_icon.png'
 
 
 const sections = [
   { title: 'Home', url: '#/home' },
   { title: 'Market Place', url: '#/marketplace' },
-  { title: 'Track my Product', url: '#/trackproduct' },
-  { title: 'Bayer Admin', url: '#/admin' },
-  { title: 'Analytics', url: '#/analytics' },
+  { title: 'Analytics', url: '#/' },
 ];
 
 const useStyles = makeStyles((theme) => ({
@@ -51,10 +50,10 @@ export default function Header(props) {
   return (
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        {/* <Button color="inherit" size="small">Subscribe</Button> */}
+       
         <img className={classes.logo}
           alt="logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bayer_Logo.svg/1200px-Bayer_Logo.svg.png" />
+          src={cloud_logo} />
         <Typography
           component="h2"
           variant="h5"
@@ -65,9 +64,9 @@ export default function Header(props) {
         >
           {title}
         </Typography>
-        <IconButton>
+        {/* <IconButton>
           <SearchIcon />
-        </IconButton>
+        </IconButton> */}
         <IconButton>
           <AccountCircleIcon />
         </IconButton>

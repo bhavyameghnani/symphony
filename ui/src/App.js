@@ -10,10 +10,10 @@ function App() {
       {/* <header className="App-header"> */}
       <BrowserRouter>
           <Routes>
-            <Route  path="/" element={<MarketPlace/>} />
-            <Route  path="/login" element={<LoginPage/>}/>
-            <Route  path="/signup" element={<SignUpPage/>}/>
-            
+            <Route path="/" element={<LoginPage/>}/>
+            <Route path="/marketplace" element={<MarketPlace/>} />
+            {/* <Route path="/login" element={<LoginPage/>}/> */}
+            <Route path="/signup" element={<SignUpPage/>}/>
           </Routes>
       </BrowserRouter>
       {/* </header> */}
