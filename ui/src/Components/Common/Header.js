@@ -11,9 +11,9 @@ import cloud_logo from '../../Resources/Images/cloud_icon.png'
 
 
 const sections = [
-  { title: 'Home', url: '#/home' },
-  { title: 'Market Place', url: '#/marketplace' },
-  { title: 'Analytics', url: '#/' },
+  { title: 'Home', url: '/' },
+  { title: 'Market Place', url: '/marketplace' },
+  { title: 'Analytics', url: '/' },
 ];
 
 const useStyles = makeStyles((theme) => ({

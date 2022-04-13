@@ -4,19 +4,19 @@ import Container from '@material-ui/core/Container';
 import Header from '../Common/Header';
 import MainFeaturedPost from '../Common/MainFeaturedPost';
 import Grid from '@material-ui/core/Grid';
-import MarketPlaceTile from './MarketPlaceTile';
+import HomePageTile from './HomePageTiles';
 
-export default function MarketPlace() {
+export default function HomePage() {
    
     return (
       <React.Fragment>
         <CssBaseline />     
          <Container maxWidth="lg">
-          <Header title="Market Place" />
+          <Header title="Symphony" />
           <main>
             <MainFeaturedPost post={mainFeaturedPost} />
             <Grid container spacing={2} align="center">
-              <MarketPlaceTile/>
+              <HomePageTile/>
             </Grid>
           </main>
         </Container>
@@ -26,10 +26,10 @@ export default function MarketPlace() {
 }
 
 const mainFeaturedPost = {
-  title: 'Market Place',
+  title: 'Symphony',
   description:
-    "One stop platform to search and buy personalised & enviornmental friendly products",
+    "Technology craves Human Touch",
   image: 'https://thumbs.gfycat.com/AntiqueEdibleBarnswallow-size_restricted.gif',
-  imgText: 'Market Place',
+  imgText: 'HomePage',
   linkText: 'Continue reading…',
 };
