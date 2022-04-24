@@ -29,7 +29,7 @@ const mainFeaturedPost = {
   title: 'Market Place',
   description:
     "One stop platform to search and buy personalised & enviornmental friendly products",
-  image: 'https://thumbs.gfycat.com/AntiqueEdibleBarnswallow-size_restricted.gif',
+  image: 'https://thumbs.dreamstime.com/b/zero-waste-elements-slogan-collection-eco-friendly-stickers-lettering-reusable-items-products-bundle-sustainable-living-211340710.jpg',
   imgText: 'Market Place',
   linkText: 'Continue reading…',
 };

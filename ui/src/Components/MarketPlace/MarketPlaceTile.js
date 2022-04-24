@@ -145,10 +145,10 @@ export default function MarketPlaceTile() {
            
               <br />
               <Typography variant="h5" className={classes.divHeading}>
-                <b>Digitally Enabling Farmers</b>
+                <b>Digitally Enabling Citizens to buy Sustainable products</b>
               </Typography>
               <Typography variant="body1" className={classes.desc}>
-              Digital Market Place for Farmers
+              Digital Market Place for Citizens who care for Mother Earth 
             </Typography>
 
               <Dialog
@@ -186,42 +186,22 @@ export default function MarketPlaceTile() {
 
   const featuredPosts = [
     {
-      title: 'Aliette® Fungicide',
+      title: 'Eco-friendly Hand Wash',
       description:
-      'True, Two-way Systemic Protection against Disease. With multiple modes of action, Aliette attacks pathogens at various growth stages for better overall disease control. ',
-      image: 'https://m.media-amazon.com/images/I/61SPA2qogiL._SL1247_.jpg',
+      'This biodegradable blend powered by essential oils helps keep your hands germs free, healthy soft and clean.',
+      image: 'https://cdn.shopify.com/s/files/1/0265/3087/3422/products/HandWash_7beb272a-fb82-4e41-9407-434c385c0e82_1000x.png?v=1650630263',
       },
     {
-      title: 'Luna Unprecedented Disease Control',
+      title: 'Compostable Bamboo Products',
       description:
-      'Effective on a wide range of crops, Luna fungicide provides unprecedented control of some of the most problematic fungal diseases to help growers deliver the best possible fruits, nuts and vegetables.',
-      image: 'https://m.media-amazon.com/images/I/517RZq88bYL._SL1224_.jpg',
+      'These products are made of either compostable or recyclable material to ensure that they do not end up in a landfill like many plastic products.',
+      image: 'https://cdn.shopify.com/s/files/1/0523/3252/7770/products/Starter-Kit-1_62f36791-cf63-4c03-a63d-8c19946db6b3_800x.jpg?v=1650454901',
       },
     {
-      title: 'Balance® Flexx Herbicide',
+      title: 'Zero Waste Starter Kit ',
       description:
-      'Balance® Flexx pre-emergence corn herbicide provides a flexible foundation that complements any herbicide program to protect yields from the start.',
-      image: 'https://cdn.shopify.com/s/files/1/1627/6009/products/balance-flexx-herbicide-2.5gals_2987f0e7-9be7-4c6b-b91b-fdd92d4a5f81.jpg?v=1551995194',
-      },
-  
-    {
-      title: 'Movento® Insecticide',
-      description:
-      'Movento® insecticide features powerful, two-way movement that moves within plants to protect them from a broad range of insects, mites and nematodes above and below the ground, creating highly pest-resistant plants and healthier crops.',
-      image: 'https://static.agrostar.in/static/AGS-CP-772_1.jpg',
-      },
-    {
-      title: 'Velum® One Insecticide',
-      description:
-      'The new nematicide with fungicidal activity for use on tree nuts, fruiting vegetables, strawberries, brassicas and cucurbits. Velum One manages a wide spectrum of yield-robbing nematodes and brings wide-spectrum, long-lasting nematode control to California and Arizona growers.',
-      image: 'https://5.imimg.com/data5/SELLER/Default/2021/3/RM/UA/CU/5111461/velum-prime-insecticide-500x500.jpg',
-      },
-      {
-        title: 'Leverage® 360 Insecticide',
-        description:
-        'It has two modes of action against sucking and chewing pests — one delivers fast knockdown, the other extends residual control. Leverage 360 with Stress Shield™ protection helps plants stay vigorous for greater yields. Leverage 360 is a restricted use pesticide.',
-        image: 'https://www.ubuy.mv/productimg/?image=aHR0cHM6Ly9pLmViYXlpbWcuY29tL2ltYWdlcy9nLy1WUUFBT1N3ZH5GZXZJUE8vcy1sNTAwLmpwZw.jpg',
-        },
-  
+      'Thinking about going zero waste? No better time than now! Here is a little kit to help you get started with your zero waste lifestyle!',
+      image: 'https://cdn.shopify.com/s/files/1/1770/7729/products/Zero-Waste-Starter-Kit_1_1440x1440.jpg?v=1603299873',
+      }
   
   ];

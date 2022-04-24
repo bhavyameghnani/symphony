@@ -4,7 +4,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
-import SearchIcon from '@material-ui/icons/Search';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 import cloud_logo from '../../Resources/Images/cloud_icon.png'
@@ -12,6 +11,7 @@ import cloud_logo from '../../Resources/Images/cloud_icon.png'
 
 const sections = [
   { title: 'Home', url: '/' },
+  { title: 'Challenges', url: '/internal' },
   { title: 'Market Place', url: '/marketplace' },
   { title: 'Analytics', url: '/' },
 ];
@@ -38,8 +38,8 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   logo: {
-    width: '10%',
-    height: '10%'
+    // width: '10%',
+    // height: '10%'
   }
 }));
 
@@ -53,6 +53,8 @@ export default function Header(props) {
        
         <img className={classes.logo}
           alt="logo"
+          height="50px"
+          width="50px"
           src={cloud_logo} />
         <Typography
           component="h2"

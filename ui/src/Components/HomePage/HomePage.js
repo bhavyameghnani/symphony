@@ -28,8 +28,8 @@ export default function HomePage() {
 const mainFeaturedPost = {
   title: 'Symphony',
   description:
-    "Technology craves Human Touch",
-  image: 'https://thumbs.gfycat.com/AntiqueEdibleBarnswallow-size_restricted.gif',
+    "Technology craves Human Touch! Connecting Moms & their kids for better tomorrow by engaging in games & challenges for sustainability!",
+  image: 'https://blogs.microsoft.com/wp-content/uploads/prod/2021/04/RE_Earth-day-blog-header-image.jpg',
   imgText: 'HomePage',
   linkText: 'Continue reading…',
 };
