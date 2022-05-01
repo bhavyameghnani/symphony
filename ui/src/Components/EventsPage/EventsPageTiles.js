@@ -199,33 +199,64 @@ export default function EventsPageTiles() {
 
 const featuredPosts = [
   {
-    title: "Indian Canvas Painting",
+    title: "Clean up your local park & streets near your home & office",
+    description: "Points:100",
     eid: "0",
-    description: "Quick 1min podcast to know more about Indian Canvas Painting",
+    image: "https://source.unsplash.com/weekly?park",
+  },
+  {
+    title: "Lead & Host a river clean-up challenge in your society",
+    eid: "1",
+    description: "Points:150",
+    image: "https://source.unsplash.com/weekly?river",
+  },
+  {
+    title: "Build birdhouses for the little birdies in your neighourhood",
+    eid: "2",
+    description: "Points:200",
+    image: "https://source.unsplash.com/weekly?bird",
+  },
+  {
+    title: "Create your own eco-friendly wrapping paper/gift bags",
+    eid: "3",
+    description: "Points:50",
+    image: "https://source.unsplash.com/weekly?bag",
+  },
+  {
+    title: "Conduct an enviorment & sustainability session at your work place",
+    eid: "4",
+    description: "Points:150",
+    image: "https://source.unsplash.com/weekly?work",
+  },
+  {
+    title: "Teach various recycling activities to your younger generation",
+    eid: "5",
+    description: "Points:300",
+    image: "https://source.unsplash.com/weekly?kid",
+  },
+  {
+    title: "Green Canvas Painting",
+    eid: "6",
+    description: "Points:150",
     image:
       "https://5.imimg.com/data5/EW/AC/MY-30913564/canvas-painting-500x500.jpg",
     imageText: "Artists name",
-    readmore:
-      "While sitting down, stretch your arms out at your sides and press your shoulder blades together. With your palms facing down, circle your arms forwards around 20 times. Then, face your palms upwards and circle your arms backwards around 20 times. After this, circle your wrists 20 times in each direction.",
-  },
+    },
   {
-    title: "Worli Paintaing",
-    eid: "1",
-    description: "How to get started with Worli Paintings",
+    title: "Climate Change",
+    eid: "7",
+    description: "Points:150",
     image:
       "https://5.imimg.com/data5/PI/TE/MY-13589378/2016-07-05-16-53-05-500x500.jpg",
     imageText: "Artists name",
-    readmore:
-      "Stand up and hold your hands together behind your back, expanding your chest. Pull your shoulder blades as close together as possible and hold the pose for 30 seconds.",
-  },
+    },
   {
-    title: "Brush Strokes",
-    eid: "2",
-    description: "All you need to know about Brush Strokes",
+    title: "Grow Trees",
+    eid: "8",
+    description: "Points:150",
     image:
       "https://image.freepik.com/free-photo/multicolored-paint-brush-strokes-surface_23-2148815523.jpg",
     imageText: "Artists name",
-    readmore:
-      "Under your desk, raise both legs at once upwards, and slowly lower them down. Repeat few times.",
-  },
+    },
+  
 ];

@@ -38,7 +38,7 @@ export default function PeopleList() {
           />
         </ListItemAvatar>
         <ListItemText
-          primary="Nidhi Patel"
+          primary="Shweta Pandey"
           secondary={
             <React.Fragment>
               <Typography
@@ -63,7 +63,7 @@ export default function PeopleList() {
           />
         </ListItemAvatar>
         <ListItemText
-          primary="Schezeen Fazulbhoy"
+          primary="Shruti Gupta"
           secondary={
             <React.Fragment>
               <Typography
